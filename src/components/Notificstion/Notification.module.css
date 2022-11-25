@@ -1,0 +1,14 @@
+.conteiner{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(200, 134, 134);
+margin-left: auto;
+margin-right: auto;
+}
+.text{
+    font-size: 80px;
+    font-weight: 800;
+    color: rgb(15, 18, 20);
+    text-align: center;
+
+}

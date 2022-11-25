@@ -1,0 +1,21 @@
+ul{
+list-style: none;        
+}
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-bottom: 80px;
+
+}
+
+ .item:not(:last-child) {
+            margin-right: 30px;
+        }
+.button{
+    height: 40px;
+    min-width: 80px;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 20px;
+}
