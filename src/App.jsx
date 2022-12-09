@@ -10,10 +10,12 @@ state = {
   neutral: 0,
   bad: 0,
 }
+
    onKlickOptions = keyName => {
      this.setState(prevState => 
 ({ [keyName]: prevState[keyName] + 1})  
      )
+     //console.log(Object.keys() )
    }
    countTotalFeedback = () => {
      const { good, neutral, bad }= this.state;
@@ -34,15 +36,6 @@ state = {
      }
      
   }
-//     onLeaveFeedback = () => {
-//      const keys = Object.keys(this.state)
-//      for (const key of keys) {
-//   // Ключ
-//   console.log(key);
-//   // Значение свойства
- 
-// }
-//   }
    render() {
      const { good, bad, neutral } = this.state;
      const total = this.countTotalFeedback();

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import style from 'components/FeedbackOptions/FeedbackOptions.module.css'
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     const keyNames = Object.keys(options)
+    
     return (
         <ul className={style.list}>
                 {keyNames.map(keyName => (
